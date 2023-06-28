@@ -1,0 +1,19 @@
+.bigparents{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+}
+
+
+
+
+
+#container{
+    display: flex;
+
+}
+
+#container1{
+    margin-left: 30px;
+}

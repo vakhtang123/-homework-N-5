@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="parents">           
+        <div id="container">
+            <div >
+                <p> task name</p>
+                <input type="text" id="pirvelitext">
+            </div>
+            <div id="container1">
+                <p>task status</p>
+                <select id="taskstatus">
+                    <option value="wtd"> what To do </option>
+                    <option value="ip" > In Progres </option>
+                    <option value="tt" > Testing </option>
+                    <option value="dn" > Done </option>
+                </select>
+                <button onclick="myclick()">click</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <p> task description</p>
+        <input type="text" id="meoretext">
+    </div>
+    <div>
+        <p> task assignee</p>
+        <input type="text" id="mesametext">
+    </div>
+    <div class="bigparents">
+        <div style="border: 2px solid black;"> To Do </div>
+        <div style="border: 2px solid black;"> In progress </div>
+        <div style="border: 2px solid black;"> Testing </div>
+        <div style="border: 2px solid black;"> Done </div>
+        <div style="border: 2px solid black;" id="todo"> </div>
+        <div style="border: 2px solid black;" id="Inprogress"> </div>
+        <div style="border: 2px solid black;" id="Testing"> </div>
+        <div style="border: 2px solid black;" id="Done"> </div>
+
+    </div>
+    
+</body>
+</html>
